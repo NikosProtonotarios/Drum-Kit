@@ -25,7 +25,7 @@ function makeSound(key) {
             break;
 
         case "a":
-            let kick = new Audio('sounds/kick-bass.mp3');
+            let kick = new Audio('sounds/BassDrum1.mp3');
             kick.play();
             break;
 
@@ -43,17 +43,29 @@ function makeSound(key) {
             let crash = new Audio('sounds/crash.mp3');
             crash.play();
             break;
+            
         case "k":
             let tom2 = new Audio('sounds/tom-2.mp3');
             tom2.play();
             break;
+
         case "l":
             let tom1 = new Audio('sounds/tom-1.mp3');
             tom1.play();    
             break;
+
+        case "h":
+            let hi = new Audio('sounds/hihat.mp3');
+            hi.play();    
+            break;
             
-            default: console.log(thisButton);
-                break;
+        case "g":
+            let hiOpen = new Audio('sounds/hihatopen.mp3');
+            hiOpen.play();    
+            break;          
+            
+        default: console.log(thisButton);
+            break;
      }
 }
 

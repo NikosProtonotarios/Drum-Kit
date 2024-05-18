@@ -1,6 +1,8 @@
 body {
   text-align: center;
-  background-color: #283149;
+  background: linear-gradient(300deg, #32012F, #524C42, #F97300);
+  background-size: 180% 180%;
+  animation: gradient-animation 38s ease infinite;
 }
 
 h1 {
@@ -48,6 +50,14 @@ footer {
 .l {
   background-image: url('images/tom4.png');
 
+}
+
+.h {
+  background-image: url('images/crash.png');
+}
+
+.g {
+  background-image: url('images/crash.png');
 }
 
 .set {
